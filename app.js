@@ -17,7 +17,7 @@ const XPATH = process.env.XPATH || UUID.slice(0, 8);       // xhttp路径,自动
 const SUB_PATH = process.env.SUB_PATH || 'sub';            // 节点订阅路径
 const DOMAIN = process.env.DOMAIN || 'db.dihao.qzz.io';                   // 域名或ip,留空将自动获取服务器ip
 const NAME = process.env.NAME || '';                       // 节点名称
-const PORT = process.env.PORT || 3000;                     // http服务
+const PORT = process.env.PORT || 7860;                     // http服务
 
 // 核心配置
 const SETTINGS = {
